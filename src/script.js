@@ -28,7 +28,7 @@ const matcapTexture = textureLoader.load('textures/matcaps/8.png')
 const fontLoader = new FontLoader()
 
 fontLoader.load(
-    '/fonts/helvetiker_regular.typeface.json',
+    'fonts/helvetiker_regular.typeface.json',
     (font) =>
     {
         // Material
@@ -36,7 +36,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Hello again!',
             {
                 font: font,
                 size: 0.5,
